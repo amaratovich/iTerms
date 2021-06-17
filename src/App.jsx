@@ -38,6 +38,7 @@ function App() {
 						component={UserProfile}
 					/>
 					<MainLayout path={routes.home} component={Home} />
+					{/* ascohcsd */}
 				</Switch>
 			</BrowserRouter>
 		</div>

@@ -48,7 +48,6 @@ export const UserProfile = () => {
 					<div className='shadow'></div>
 					{/* settings */}
 					{/* <SettingBody /> */}
-					{/* <BrowserRouter> */}
 						<Switch>
 							<Route
 								path='/profile/edit_password'
@@ -59,7 +58,6 @@ export const UserProfile = () => {
 							<Route path='/profile/' component={SettingBody} />
 						</Switch>
 					{/* </BrowserRouter> */}
-					{/* <EditPassword></EditPassword> */}
 				</div>
 			</div>
 		</div>
